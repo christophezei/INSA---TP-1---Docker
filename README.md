@@ -132,9 +132,24 @@ As you can see, TensorFlow is not installed. Follow the steps below to install i
 -Rebuild your image with the modified Dockerfile.
 -Run your container and test the TensorFlow installation.
 
+### Step 5: Test an app in ubuntu container
+
+In this segment, your objective is to assess an application in an isolated environment, 
+ensuring that all actions, including cloning the repository, 
+are performed within the confines of the Docker container. The rationale behind this approach is to maintain a secure and self-contained testing environment. To achieve this, your task is to create a comprehensive Dockerfile. This Dockerfile should not only compile and execute the code from the provided repository but also encompass the necessary steps to clone the repository directly within the container. By encapsulating all processes within the container, we enhance security measures and isolate potential risks from your local machine.
+
+repo to test :
+
+```
+https://github.com/lukinoo/calculator_c/tree/main
+```
+
+
 ### Conclusion
 By the end of this lab, you should now possess practical skills in Docker, ranging from grasping fundamental 
 containerization concepts to crafting custom images tailored for specific applications. 
 This newfound knowledge enhances your capability to construct reproducible and portable development environments,
 fostering efficiency and consistency in your software development workflows.
+
+
 
