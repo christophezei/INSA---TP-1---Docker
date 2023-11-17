@@ -141,7 +141,7 @@ are performed within the confines of the Docker container. The rationale behind 
 repo to test :
 
 ```
-https://github.com/lukinoo/calculator_c/tree/main
+ https://github.com/christophezei/add_two_numbers_docker.git
 ```
 
 
