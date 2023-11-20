@@ -7,6 +7,7 @@ In this first part of the lab you will build and run your first docker.
 ### Step 2: Installing Docker
 - Docker is available for Windows, macOS, and various Linux distributions.
 - To install Docker on your system, follow the instructions for your operating system at this URL: https://docs.docker.com/engine/install/
+- To run docker without sudo use the following command : sudo setfacl -m user:$USER:rw /var/run/docker.sock
 
 ### Step 3: Running your first Docker container
 - Use your lab VM with linux (you can use your own machine, but we recommend that you use a Linux machine for this tutorial)
