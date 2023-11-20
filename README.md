@@ -9,6 +9,7 @@ In this first part of the lab you will build and run your first docker.
 - To install Docker on your system, follow the instructions for your operating system at this URL: https://docs.docker.com/engine/install/
 
 ### Step 3: Running your first Docker container
+- Use your lab VM with linux (you can use your own machine, but we recommend that you use a Linux machine for this tutorial)
 - To verify that Docker is installed and running correctly, run the following command in your terminal: docker run hello-world
 - This command downloads and runs the “hello-world” image from the Docker hub, which displays a message indicating that Docker is installed and working correctly.
 ### Step 4: Creating a Docker container
