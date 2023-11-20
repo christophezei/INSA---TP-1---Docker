@@ -27,6 +27,7 @@ docker run -it ubuntu
 - To exit the container, type exit at the prompt.
 
 ### Step 6: Stopping and removing containers
+- To find a [container_id], run the following command: docker ps -a
 - To stop a running Docker container, run the following command: docker stop [container_id]
 - To remove a stopped Docker container, run the following command: docker rm [container_id]
 
@@ -143,8 +144,6 @@ repo to test :
 ```
  https://github.com/christophezei/add_two_numbers_docker.git
 ```
-
-
 ### Conclusion
 By the end of this lab, you should now possess practical skills in Docker, ranging from grasping fundamental 
 containerization concepts to crafting custom images tailored for specific applications. 
